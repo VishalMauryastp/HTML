@@ -31,7 +31,7 @@
         }
         .form-label{
             position: absolute;
-            top:0.7rem;
+            top:0.6rem;
             left:1.4rem;
             cursor: text;
             transition:top 200ms ease-in,left 20ms ease-in, font-size 200ms ease-in ;
@@ -41,9 +41,9 @@
 
         }
         .textbox:focus~.form-label,
-        .textbox:not(:placeholder-shown).textbox:not(:focus)~.form-level
+        .textbox:not(:placeholder-shown).textbox:not(:focus)~.form-label
         {
-            top: -0.4rem;
+            top: -0.3rem;
             left: 0.5rem;
             font-size: 10px;
             background-color: rgb(245, 228, 228);
@@ -54,7 +54,7 @@
 </head>
 <body>
     <div class="form">
-        <input type="text" name="" placeholder="" class="textbox">
+        <input type="text" name="" placeholder="  " class="textbox">
         <label class="form-label"  > Username</label>
     </div>
 </body>
