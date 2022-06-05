@@ -27,13 +27,15 @@
             outline: none;
             background: none;
             padding: 10px;
-            color:black
+            color:black;
+            
         }
         .form-label{
             position: absolute;
             top:0.6rem;
             left:1.4rem;
             cursor: text;
+            pointer-events: none;
             transition:top 200ms ease-in,left 20ms ease-in, font-size 200ms ease-in ;
         }
         .textbox:focus{
@@ -45,6 +47,7 @@
         {
             top: -0.3rem;
             left: 0.5rem;
+            
             font-size: 10px;
             background-color: rgb(245, 228, 228);
 
